@@ -5,13 +5,13 @@
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="CM8Ts4Rsh9uBSjFnD-UI-0" value="Company" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="189" y="163" width="120" height="85" as="geometry" />
+          <mxGeometry x="189" y="153" width="120" height="95" as="geometry" />
         </mxCell>
         <mxCell id="CM8Ts4Rsh9uBSjFnD-UI-1" value="Contact Involved" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="595" y="98" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CM8Ts4Rsh9uBSjFnD-UI-2" value="Market Project" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="400" y="163" width="120" height="92" as="geometry" />
+          <mxGeometry x="400" y="150" width="120" height="105" as="geometry" />
         </mxCell>
         <mxCell id="CM8Ts4Rsh9uBSjFnD-UI-3" value="MP Product" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="516" y="293" width="120" height="60" as="geometry" />
