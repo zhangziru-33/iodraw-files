@@ -22,44 +22,6 @@
         <mxCell id="CM8Ts4Rsh9uBSjFnD-UI-5" value="Companies Involved" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="179" y="16" width="120" height="85" as="geometry" />
         </mxCell>
-        <mxCell id="CM8Ts4Rsh9uBSjFnD-UI-8" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="CM8Ts4Rsh9uBSjFnD-UI-0">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="165" y="228" as="sourcePoint" />
-            <mxPoint x="174" y="62" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="180" y="151" />
-              <mxPoint x="166" y="171" />
-              <mxPoint x="172" y="146" />
-              <mxPoint x="148" y="98" />
-              <mxPoint x="122" y="99" />
-              <mxPoint x="129" y="94" />
-              <mxPoint x="117" y="100" />
-              <mxPoint x="180" y="151" />
-              <mxPoint x="172" y="144" />
-              <mxPoint x="142" y="168" />
-              <mxPoint x="196" y="128" />
-              <mxPoint x="184" y="190" />
-              <mxPoint x="141" y="119" />
-              <mxPoint x="165" y="116" />
-              <mxPoint x="182" y="195" />
-              <mxPoint x="187" y="181.75" />
-              <mxPoint x="260" y="138.75" />
-              <mxPoint x="219" y="145.75" />
-              <mxPoint x="155" y="127.75" />
-              <mxPoint x="160" y="126.75" />
-              <mxPoint x="235" y="125.75" />
-              <mxPoint x="164" y="39.75" />
-              <mxPoint x="160" y="102.75" />
-              <mxPoint x="200" y="109.75" />
-              <mxPoint x="198" y="79.75" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="CM8Ts4Rsh9uBSjFnD-UI-16" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CM8Ts4Rsh9uBSjFnD-UI-8">
-          <mxGeometry x="0.4965" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="CM8Ts4Rsh9uBSjFnD-UI-10" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;entryX=0.013;entryY=0.832;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="CM8Ts4Rsh9uBSjFnD-UI-0" target="CM8Ts4Rsh9uBSjFnD-UI-0">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="81" y="254" as="sourcePoint" />
