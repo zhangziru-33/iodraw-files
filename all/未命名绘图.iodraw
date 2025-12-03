@@ -8,19 +8,25 @@
           <mxGeometry x="189" y="153" width="120" height="95" as="geometry" />
         </mxCell>
         <mxCell id="CM8Ts4Rsh9uBSjFnD-UI-1" value="Contact Involved" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="595" y="98" width="120" height="60" as="geometry" />
+          <mxGeometry x="585" y="93" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CM8Ts4Rsh9uBSjFnD-UI-2" value="Market Project" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="400" y="150" width="120" height="105" as="geometry" />
         </mxCell>
         <mxCell id="CM8Ts4Rsh9uBSjFnD-UI-3" value="MP Product" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="516" y="293" width="120" height="60" as="geometry" />
+          <mxGeometry x="547" y="277" width="120" height="85" as="geometry" />
         </mxCell>
         <mxCell id="CM8Ts4Rsh9uBSjFnD-UI-4" value="PV Product" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="309" y="297" width="120" height="90" as="geometry" />
         </mxCell>
         <mxCell id="CM8Ts4Rsh9uBSjFnD-UI-5" value="Companies Involved" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="247" y="19" width="120" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="CM8Ts4Rsh9uBSjFnD-UI-7" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="362" y="322" as="sourcePoint" />
+            <mxPoint x="462" y="222" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
