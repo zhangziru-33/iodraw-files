@@ -1,6 +1,8 @@
 ```mermaid
 erDiagram
-
+    A["左对齐文本"]:::left
+  B["Contact Involved"]:::center
+  C["右对齐文本"]:::right
 
     %% -- 中间关联层最后声明，放在右侧/底部
     "Market Project" {
