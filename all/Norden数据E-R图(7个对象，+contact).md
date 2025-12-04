@@ -14,5 +14,5 @@ erDiagram
     %% "Market Project" ||--o{ "MP Product" : "1对多（通过Market Project字段关联）"
     %% "MP Product" }|--|| "PV Product" : "多对1（通过产品参数关联，如Frame Material）"
    
-    %% Contact ||--o{ "Conatct Involved" : "1对多（通过Conatct字段关联）"
+    
 ```
