@@ -66,6 +66,4 @@ erDiagram
     "Market Project" ||--o{ "Companies Involved" : "Market_Project"
     "Market Project" ||--o{ "MP Product" : "Market_Project"
     "MP Product" }|--|| "PV Product" : "PV_Product"
-   
-    
 ```
