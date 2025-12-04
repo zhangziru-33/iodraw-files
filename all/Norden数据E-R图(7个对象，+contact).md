@@ -7,13 +7,11 @@ erDiagram
         string Company_Type
         string General_Email
     }
-    
     "Market Project" {
         string Project_ID
         string City
         date COD_Date
     }
-    
     
 
     %% -- 关联实体次之，围绕主实体排布
@@ -22,7 +20,6 @@ erDiagram
         string Email
         string Company_Name
     }
-    
     "PV Product" {
         string Product_Model
         string Frame_Material
