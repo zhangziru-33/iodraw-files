@@ -25,9 +25,7 @@ erDiagram
     }
 
     %% -- 中间关联层最后声明，放在右侧/底部
-    "Companies Involved" {
-        
-    }
+    
     "Contact Involved" {
         string Contact
         string Market_Project
