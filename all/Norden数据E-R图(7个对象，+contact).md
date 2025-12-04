@@ -1,5 +1,6 @@
 ```mermaid
 erDiagram
+
     
     
     Company ||--o{ "PV Product" : "1对多（通过Company字段关联）"
