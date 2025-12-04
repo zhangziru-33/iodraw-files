@@ -59,7 +59,6 @@ erDiagram
     %% "MP Product" }|--|| "PV Product" : "1对多（通过PV Product字段关联）"
     
     Company ||--o{ "PV Product" : "Company"
-    
     "Market Project" ||--o{ "Contact Involved" : "Market_Project"
     
     "Contact Involved" }|--|| "Contact" : "Contact"
