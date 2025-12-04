@@ -60,9 +60,7 @@ erDiagram
     
     Company ||--o{ "PV Product" : "Company"
     "Market Project" ||--o{ "Contact Involved" : "Market_Project"
-    
     "Contact Involved" }|--|| "Contact" : "Contact"
-    
     Company ||--o{ "Contact" : "Company_Name"
     
     "Companies Involved" }|--|| "Company" : "Company_Name"
