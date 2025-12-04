@@ -1,5 +1,5 @@
 ```mermaid
-%%{init: {'theme': 'base', 'themeVariables': {'background': '#ffffff'}}}%%
+%% {init: {'theme': 'base', 'themeVariables': {'background': '#ffffff'}}}%%
 erDiagram
     Company ||--o{ "Companies Involved" : "1对多（通过Company Name关联）"
     Company ||--o{ "PV Product" : "1对多（通过Company字段关联）"
