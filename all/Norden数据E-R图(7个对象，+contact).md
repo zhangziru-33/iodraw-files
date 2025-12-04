@@ -1,14 +1,13 @@
 ```mermaid
 erDiagram
-
-
-    %% -- 中间关联层最后声明，放在右侧/底部
+    %% ---------------------------------------------------------
+    %% 1. 实体定义 (内容不变)
+    %% ---------------------------------------------------------
     "Market Project" {
         string Project_ID
         string City
         date COD_Date
     }
-
     "Companies Involved" {
         string Company_Name
         string Market_Project
@@ -24,14 +23,11 @@ erDiagram
         string PV_Product
         string MP_Product_Name
     }
-    %% -- 核心主实体优先声明，放在左侧/顶部
     Company {
         string Company_Name
         string Company_Type
         string General_Email
     }
-   
-    %% -- 关联实体次之，围绕主实体排布
     Contact {
         string Contact_Name
         string Email
@@ -43,29 +39,25 @@ erDiagram
         string Company
     }
 
-    
-    %% Company ||--o{ "PV Product" : "1对多（通过Company字段关联）"
-    
-    %% "Market Project" ||--o{ "Contact Involved" : "1对多（通过Market Project字段关联）"
-    %% "Contact Involved" }|--|| "Contact" : "1对多\n（通过Contact字段关联）"
-    %% %% Contact ||--o{ "Conatct Involved" : "1对多（通过Conatct字段关联）"
-    %% Company ||--o{ "Contact" : "1对多（通过Company Name关联）"
-    %% %% Company ||--o{ "Companies Involved" : "1对多（通过Company Name关联）"
-    %% "Companies Involved" }|--|| "Company" : "多对一（通过Contact字段关联）"
-    %% "Market Project" ||--o{ "Companies Involved" : "1对多（通过Master Project字段关联）"
-    
+    %% ---------------------------------------------------------
+    %% 2. 关系流向控制 (这是布局的关键！)
+    %% 逻辑顺序：Top -> Middle -> Bottom
+    %% ---------------------------------------------------------
 
-    %% "Market Project" ||--o{ "MP Product" : "1对多（通过Market Project字段关联）"
-    %% "MP Product" }|--|| "PV Product" : "1对多（通过PV Product字段关联）"
-    
-    Company ||--o{ "PV Product" : "Company"
-    "Market Project" ||--o{ "Contact Involved" : "Market_Project"
-    "Contact Involved" }|--|| "Contact" : "Contact"
-    Company ||--o{ "Contact" : "Company_Name" 
-    "Companies Involved" }|--|| "Company" : "Company_Name"
+    %% === 第一层流向：从 Top (Market Project) 指向 Middle ===
+    %% 将 Market Project 放在左边，它是“根”，会定在最上方
     "Market Project" ||--o{ "Companies Involved" : "Market_Project"
+    "Market Project" ||--o{ "Contact Involved" : "Market_Project"
     "Market Project" ||--o{ "MP Product" : "Market_Project"
+
+    %% === 第二层流向：从 Middle 指向 Bottom ===
+    %% 这会让 Company 和 Contact 被“推”到图表下方
+    "Companies Involved" }|--|| "Company" : "Company_Name"
+    "Contact Involved" }|--|| "Contact" : "Contact"
     "MP Product" }|--|| "PV Product" : "PV_Product"
-   
-    
+
+    %% === 第三层：Bottom 实体之间的横向关联 ===
+    %% 这些写在最后，避免干扰主干的上下层级
+    Company ||--o{ "Contact" : "Company_Name"
+    Company ||--o{ "PV Product" : "Company"
 ```
