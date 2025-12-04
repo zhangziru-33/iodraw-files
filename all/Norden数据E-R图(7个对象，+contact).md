@@ -1,7 +1,6 @@
 ```mermaid
 erDiagram
     %% -- 核心主实体优先声明，放在左侧/顶部
-    
     Company {
         string Company_Name
         string Company_Type
@@ -12,7 +11,6 @@ erDiagram
         string City
         date COD_Date
     }
-    
 
     %% -- 关联实体次之，围绕主实体排布
     Contact {
@@ -25,10 +23,13 @@ erDiagram
         string Frame_Material
         string Company
     }
-    
 
     %% -- 中间关联层最后声明，放在右侧/底部
-    
+    "Companies Involved" {
+        string Company_Name
+        string Market_Project
+        string Primary_Contact_Email
+    }
     "Contact Involved" {
         string Contact
         string Market_Project
