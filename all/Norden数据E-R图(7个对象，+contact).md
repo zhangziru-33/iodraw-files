@@ -1,6 +1,7 @@
 ```mermaid
 erDiagram
     %% -- 核心主实体优先声明，放在左侧/顶部
+    
     Company {
         string Company_Name
         string Company_Type
