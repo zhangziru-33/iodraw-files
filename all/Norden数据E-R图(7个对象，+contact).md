@@ -12,7 +12,7 @@ erDiagram
         date COD_Date
     }
 
-    -- 关联实体次之，围绕主实体排布
+    %% -- 关联实体次之，围绕主实体排布
     Contact {
         string Contact_Name
         string Email
@@ -24,11 +24,9 @@ erDiagram
         string Company
     }
 
-    -- 中间关联层最后声明，放在右侧/底部
+    %% -- 中间关联层最后声明，放在右侧/底部
     "Companies Involved" {
-        string Company_Name
-        string Market_Project
-        string Primary_Contact_Email
+        
     }
     "Contact Involved" {
         string Contact
