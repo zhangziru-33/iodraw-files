@@ -1,6 +1,6 @@
 ```mermaid
 erDiagram
-    A["左对齐文本"]:::left
+    A["Market Project"]:::left
   B["Contact Involved"]:::center
   C["右对齐文本"]:::right
 
