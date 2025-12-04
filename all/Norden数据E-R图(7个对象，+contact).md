@@ -61,14 +61,10 @@ erDiagram
     Company ||--o{ "PV Product" : "Company"
     "Market Project" ||--o{ "Contact Involved" : "Market_Project"
     "Contact Involved" }|--|| "Contact" : "Contact"
-    Company ||--o{ "Contact" : "Company_Name"
-    
+    Company ||--o{ "Contact" : "Company_Name" 
     "Companies Involved" }|--|| "Company" : "Company_Name"
-    
     "Market Project" ||--o{ "Companies Involved" : "Market_Project"
-
     "Market Project" ||--o{ "MP Product" : "Market_Project"
-    
     "MP Product" }|--|| "PV Product" : "PV_Product"
    
     
