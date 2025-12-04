@@ -11,6 +11,7 @@ erDiagram
         string City
         date COD_Date
     }
+    
 
     %% -- 关联实体次之，围绕主实体排布
     Contact {
@@ -23,6 +24,7 @@ erDiagram
         string Frame_Material
         string Company
     }
+    
 
     %% -- 中间关联层最后声明，放在右侧/底部
     
