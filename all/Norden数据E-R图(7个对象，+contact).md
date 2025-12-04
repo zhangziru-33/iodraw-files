@@ -1,5 +1,7 @@
 ```mermaid
 erDiagram
+
+
     %% -- 中间关联层最后声明，放在右侧/底部
     "Market Project" {
         string Project_ID
