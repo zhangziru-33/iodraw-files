@@ -9,7 +9,7 @@ erDiagram
     %% Contact ||--o{ "Conatct Involved" : "1对多（通过Conatct字段关联）"
     Company ||--o{ "Contact" : "1对多（通过Company Name关联）"
     %% Company ||--o{ "Companies Involved" : "1对多（通过Company Name关联）"
-    "Compani Involved" }|--|| "Company" : "1对多（通过Contact字段关联）"
+    "Companies Involved" }|--|| "Company" : "du（通过Contact字段关联）"
     "Market Project" ||--o{ "Companies Involved" : "1对多（通过Master Project字段关联）"
     
 
